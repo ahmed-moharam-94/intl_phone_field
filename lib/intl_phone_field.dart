@@ -527,6 +527,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
     );
   }
 
+  /////////////////////////////////////////////////////
   // check if the phone is starting with a leading zero
   // then increase validation length by one
   void _increaseValidationLength({required String value}) {
